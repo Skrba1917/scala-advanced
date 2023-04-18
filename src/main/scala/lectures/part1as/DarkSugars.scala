@@ -93,5 +93,4 @@ object DarkSugars extends App {
 
   val aMutableContainer = new Mutable
   aMutableContainer.member = 42 // rewrittern as aMutableContainer.member_=(42)
-  
 }

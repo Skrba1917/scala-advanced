@@ -118,11 +118,4 @@ object AdvancedPatternMatching extends App {
     case PersonWrapper(n) => s"This person's name is $n"
     case _ => "No name"
   })
-
-
-
-
-
-
-
 }

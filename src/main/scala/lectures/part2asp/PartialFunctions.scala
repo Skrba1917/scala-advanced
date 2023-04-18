@@ -85,8 +85,4 @@ object PartialFunctions extends App {
   }
 
   scala.io.Source.stdin.getLines().map(chatBotPF).foreach(println)
-
-
-
-
 }
